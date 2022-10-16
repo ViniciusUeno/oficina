@@ -1,0 +1,227 @@
+.bk
+
+{
+   
+   background-image: url("bak.jpg");
+
+   background-repeat: no-repeat;
+
+   background-size: cover;
+
+   background-position: center;
+
+   background-attachment: fixed;
+
+}
+
+header
+{
+    background-image: url("bak.jpg");
+
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+
+    padding: 40px 0;
+}
+
+nav li
+
+{
+    display: inline;
+
+    margin: 0 0 0 15px;
+}
+
+.box
+
+{
+    position: relative;
+
+    width: 940px;
+
+    margin: 0px auto;
+}
+
+nav
+
+{
+    position: absolute;
+    
+    top: 110px;
+
+    right: 0px;
+
+}
+
+nav a
+
+{
+    text-transform: uppercase;
+
+    color: black;
+
+    font-weight: bold;
+
+    font-size: 22px;
+
+    text-decoration: none;
+
+    transition: 1s all;
+
+}
+
+nav a:hover
+
+{
+
+    color: blue;
+    
+}
+
+.produto
+
+{
+
+    width: 940px;
+
+    margin: 0 auto;
+
+    padding: 50px 0;
+
+}
+
+.produto li
+
+{
+
+    display: inline-block;
+
+    text-align: center;
+
+    width: 30%;
+
+    vertical-align: top;
+
+    background-color: aliceblue;
+
+    margin: 0 1.5%;
+
+    padding: 20px 30px;
+
+    box-sizing: border-box;
+
+    border: 5px solid black;
+
+    border-radius: 10px;
+
+    transition: 1s border;
+
+}
+
+.produto li:hover
+
+{
+
+    border-color: blue
+
+}
+
+.produto li:active
+
+{
+
+    border-color: green;
+
+}
+
+.produto li:hover h2
+
+{
+
+    font-size: 35px;
+
+}
+
+.produto h2
+
+{
+
+    font-size: 30px;
+    
+    font-weight: bold;
+
+}
+
+.preço
+
+{
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin-top: 10%;
+
+}
+
+.desc
+
+{
+
+    font-size: 18px;
+
+}
+
+#conc
+
+{
+
+    width: 100%;
+
+}
+
+#poten
+
+{
+
+    width: 91%;
+    
+}
+
+#visto
+
+{
+
+    width: 100%;
+    
+}
+
+footer
+
+{
+
+    text-align: center;
+
+    background-image: url("bak.jpg");
+
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+
+    padding: 40px 0;
+
+}
+
+.copy
+
+{
+
+    color: black;
+
+    font-size: 15px;
+
+    margin-top: 15px;
+
+
+}
