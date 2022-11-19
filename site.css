@@ -1,0 +1,797 @@
+
+body p
+
+{
+
+    font-family: 'Lora', serif;
+
+}
+
+.bk
+
+{
+   
+   background-image: url("bak.jpg");
+
+   background-repeat: no-repeat;
+
+   background-size: cover;
+
+   background-position: center;
+
+   background-attachment: fixed;
+
+}
+
+
+h1 { color: rgb(0, 0, 0);}
+
+p1 { color: rgb(5, 5, 5);}
+
+.cartão
+
+{
+
+    width: 25%;
+
+    margin: 50px;
+
+    box-shadow: 10px 10px 5px black, -10px -10px 5px black;
+
+}
+
+
+ .titulo1
+
+ {
+
+    font-size: 5em;
+
+     text-align: center;
+
+        font-family: 'Allura', cursive;
+
+
+ }
+
+ .titulo2
+
+ {
+
+    font-size: 60px;
+
+     text-align: center;
+
+        text-shadow: 2px 2px 5px rgb(95, 92, 87);
+
+
+ }
+
+ .titulo3
+
+ {
+
+    font-size: 6em;
+
+     text-align: center;
+
+     height: 100px;
+
+     margin: 50px 400px;
+
+        font-family: 'Allura', cursive;
+
+        text-shadow: 2px 2px 5px rgb(95, 92, 87);
+
+ }
+
+ .titulo4
+
+ {
+
+    font-size: 6em;
+
+     text-align: center;
+
+        margin: 50px 400px;
+
+        font-family: 'Allura', cursive;
+
+        text-shadow: 2px 2px 5px rgb(95, 92, 87);
+
+ }
+
+ .principal
+
+ {
+
+   background:linear-gradient( white, white);
+
+   padding: 30px;
+
+   margin: 0 100px;
+
+   box-shadow: inset 0 0 30px black;
+
+ }
+
+ .text1
+
+ {
+
+   font-size: 25px;
+
+ }
+
+ .text2
+
+ {
+
+   font-size: 27px
+   
+ }
+
+.principal strong
+
+{
+
+    font-weight: bold;
+}
+
+.principal,.text2 em
+
+{
+
+    font-style: italic;
+}
+
+.ferramentas
+
+{
+
+    width: 20%;
+
+    float: left;
+
+    margin: 0 20px 20px 0;
+
+    opacity: 1;
+
+    transition: 400ms;
+
+}
+
+.ferramentas:hover
+
+{
+
+    opacity: 0.5;
+
+}
+
+.ferramentas2
+
+{
+
+    width: 31%;
+
+    float: right;
+
+    margin: 0 20px 20px 0;
+
+    opacity: 1;
+
+    transition: 500ms;
+
+}
+
+.ferramentas2:hover
+
+{
+
+    opacity: 0.5;
+
+}
+
+.ferramentas3
+
+{
+
+    width: 15%;
+
+    float: right;
+
+    margin: 0 20px 20px 0;
+
+    opacity: 1;
+
+    transition: 500ms;
+
+}
+
+.ferramentas3:hover
+
+{
+
+    opacity: 0.5;
+    
+}
+
+.titulo-mapa
+
+{
+
+    font-size: 5em;
+
+     text-align: center;
+
+        margin: 50px 330px;
+
+        font-family: 'Allura', cursive;
+
+        text-shadow: 2px 2px 5px rgb(95, 92, 87);
+
+        clear: right;
+
+}
+
+.text-mapa
+
+{
+
+    font-size: 2em;
+
+}
+
+.mapa
+
+{
+
+    padding: 3em 0;
+
+}
+
+.mapa p
+
+{
+
+    margin: 0 0 2em;
+
+    text-align: center;
+
+}
+
+.video
+
+{
+
+    width: 560px;
+
+    margin: 1em auto;
+}
+
+.titulo-benef
+
+{
+
+    font-size: 5em;
+
+    text-align: center;
+
+       margin: 50px 330px;
+
+       font-family: 'Allura', cursive;
+
+       text-shadow: 2px 2px 5px rgb(95, 92, 87);
+
+}
+.itens
+
+{
+
+    font-size: 25px
+
+}
+
+.lista-benef
+
+{
+
+width: 40%;
+
+display: inline-block;
+
+vertical-align: top;
+
+}
+
+.itens
+
+{
+
+    line-height: 1.5;
+
+}
+
+.itens:before
+
+{
+
+    font-size: 50%;
+
+   content:"⬤";
+
+}
+
+.itens:last-child
+
+{
+
+    line-height: 1;
+
+    font-size: 23px;
+
+}
+
+.itens:first-child
+
+{
+
+    font-weight:bold;
+
+}
+
+.content-benef
+
+{
+
+    width: 640px;
+
+    margin: 0 auto;
+
+    padding: 3em 0;
+
+}
+
+.img-benef
+
+{
+
+    width: 40%;
+
+    opacity: 1;
+
+    transition: 400ms;
+
+}
+
+.img-benef:hover
+
+{
+
+    opacity: 0.5;
+
+}
+/*formulario*/
+
+.formulario123
+
+{
+
+    width: 940px;
+
+    margin: 0 auto;
+
+}
+
+form
+
+{
+
+    margin: 40px 0;
+
+}
+
+form label , form legend
+
+{
+
+    display:block;
+
+    font-size: 20px;
+
+    margin: 0 0 10px;
+     
+}
+
+.input-padrão
+
+{
+
+    display: block;
+
+    margin: 0 0 20px;
+
+    padding: 10px 25px;
+
+    width: 50%;
+
+}
+
+.checkbox
+
+{
+
+    margin: 20px 0;
+
+}
+
+.enviar
+
+{
+
+    width: 40%;
+
+    padding: 15px 0;
+
+    background-color: black;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    transition: 1s all;
+
+    cursor: pointer;
+
+}
+
+.enviar:hover
+
+{
+
+    background-color: blue;
+
+    transform: scale(1.2);
+
+}
+
+table
+
+{
+
+    margin: 20px 0 40px;
+
+}
+
+thead
+
+{
+
+    background-color: aliceblue;
+
+    color: black;
+
+    font-weight: bold;
+
+}
+
+td , th
+
+{
+
+    border: 1px solid black;
+
+    padding: 8px 15px;
+
+}
+
+tbody
+
+{
+
+    background-color: aliceblue
+    
+}
+
+/*prudutos*/
+
+.produto
+
+{
+
+    width: 940px;
+
+    margin: 0 auto;
+
+    padding: 50px 0;
+
+}
+
+.produto li
+
+{
+
+    display: inline-block;
+
+    text-align: center;
+
+    width: 30%;
+
+    vertical-align: top;
+
+    background-color: aliceblue;
+
+    margin: 0 1.5%;
+
+    padding: 20px 30px;
+
+    box-sizing: border-box;
+
+    border: 5px solid black;
+
+    border-radius: 10px;
+
+}
+
+.produto li:hover
+
+{
+
+    border-color: blue
+
+}
+
+.produto li:active
+
+{
+
+    border-color: green;
+
+}
+
+.produto li:hover h2
+
+{
+
+    font-size: 35px;
+
+}
+
+.produto h2
+
+{
+
+    font-size: 30px;
+    
+    font-weight: bold;
+
+}
+
+.preço
+
+{
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin-top: 10%;
+
+}
+
+.desc
+
+{
+
+    font-size: 18px;
+
+}
+
+#conc
+
+{
+
+    width: 100%;
+
+}
+
+#poten
+
+{
+
+    width: 91%;
+    
+}
+
+#visto
+
+{
+
+    width: 100%;
+    
+}
+
+.serviçoss
+
+{
+
+    font-family: 'Allura', cursive;
+
+}
+
+
+/*roda pé e barra superior*/
+
+ header
+{
+    background-image: url("bak.jpg");
+
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+
+    padding: 40px 0;
+}
+
+nav li
+
+{
+    display: inline;
+
+    margin: 0 0 0 15px;
+}
+
+.box
+
+{
+    position: relative;
+
+    width: 940px;
+
+    margin: 0px auto;
+}
+
+nav
+
+{
+    position: absolute;
+    
+    top: 110px;
+
+    right: 0px;
+
+}
+
+nav a
+
+{
+    text-transform: uppercase;
+
+    color: black;
+
+    font-weight: bold;
+
+    font-size: 22px;
+
+    text-decoration: none;
+
+    transition: 1s all;
+
+    font-family: 'Lora', serif;
+
+}
+
+nav a:hover
+
+{
+
+    color: blue;
+
+}
+
+footer
+
+{
+
+    text-align: center;
+
+    background-image: url("bak.jpg");
+
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+
+    padding: 40px 0;
+
+}
+
+.copy
+
+{
+
+    color: black;
+
+    font-size: 15px;
+
+    margin-top: 10px;
+
+
+}
+
+@media screen and (max-width: 480px) 
+
+{ 
+
+    .principal,.video,.mapa,.content-benef,.box
+    
+{
+
+    width: auto;
+
+}
+
+.cartão
+
+{
+
+    width: 70%;
+
+}
+
+.titulo1,.titulo3,.titulo4,.titulo-benef,.titulo-mapa
+
+{
+
+    margin: 30px auto;
+
+}
+
+
+.img-benef
+
+{
+
+    width: 55%;
+
+}
+
+.content-benef
+
+{
+
+    width: 100%;
+
+}
+
+.principal
+
+{
+
+    margin: 0
+
+}
+
+.logo
+
+{
+
+    text-align: center;
+
+}
+
+nav
+
+{
+
+position: static;
+
+}
+
+}
